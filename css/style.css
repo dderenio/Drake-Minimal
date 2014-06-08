@@ -1,0 +1,77 @@
+body{
+	overflow-x: hidden;
+	max-width: 100%;
+}
+
+
+/* Navbar
+=====================*/
+
+.navbar{
+	font-family: raleway;
+	font-size: 20px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #555;
+	background-color: transparent;
+}
+
+/* Layout
+=====================*/
+
+.phrase{
+	text-align: center;
+	font-family: 'raleway';
+	color: white;
+	position: relative;
+	padding-top:250px;
+}
+
+.drake-content{
+	text-align: center;
+	font-family: glober;
+	line-height: 30px;
+	padding-top: 10px;
+}
+
+.myself{
+	height:430px;
+	width:415px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+/* Jumbotron
+=====================*/
+.jumbotron{
+	background: #34CFBE;
+	height:720px;
+}
+
+.jumbotron h1{
+	font-size: 80px;
+}
+/* Logos & Icons
+=====================*/
+
+/* Main Logo
+
+.main-logo {
+	width: 94px;
+	height: 45px;
+	margin-top: 5px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url('../images/logo.gif') no-repeat;
+	background-size: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+=====================*/
+
