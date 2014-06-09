@@ -1,14 +1,22 @@
 /* Fonts
 =====================*/
 
-@font-face{
-	font-family: Raleway;
-	src: url('fonts/Raleway-Thin.otf');
+@font-face {
+	font-family: 'Raleway-Thin';
+	src: url('../fonts/Raleway-Thin.eot?') format('eot'), 
+	     url('../fonts/Raleway-Thin.otf')  format('opentype'),
+	     url('../fonts/Raleway-Thin.woff') format('woff'), 
+	     url('../fonts/Raleway-Thin.ttf')  format('truetype'),
+	     url('../fonts/Raleway-Thin.svg#Raleway-Thin') format('svg');
 }
 
-@font-face{
-	font-family: 'CODE bold';
-	src: url('fonts/code-bold.otf');
+@font-face {
+	font-family: 'Code-Bold';
+	src: url('../fonts/Code-Bold.eot?') format('eot'), 
+	     url('../fonts/Code-Bold.otf')  format('opentype'),
+	     url('../fonts/Code-Bold.woff') format('woff'), 
+	     url('../fonts/Code-Bold.ttf')  format('truetype'),
+	     url('../fonts/Code-Bold.svg#Code-Bold') format('svg');
 }
 
 p{
@@ -19,7 +27,7 @@ p{
 =====================*/
 
 .navbar{
-    font-family: 'raleway';
+	font-family: 'Raleway-Thin';
 	font-size: 20px;
 }
 
@@ -33,7 +41,7 @@ p{
 
 .phrase{
 	text-align: center;
-    font-family: 'raleway';
+	font-family: 'Raleway-Thin';
 	color: white;
 	position: relative;
 	padding-top:250px;
@@ -50,14 +58,14 @@ p{
 }
 
 .facts{
-	font-family: 'CODE bold';
+	font-family: 'Code-Bold';
 	color: #34CFBE;
 	padding-top: 30px;
 }
 
 .drake-content{
 	text-align: center;
-    font-family: 'raleway';
+	font-family: 'Raleway-Thin';
 	line-height: 30px;
 	padding-top: 35px;
 	max-width: 75%;
