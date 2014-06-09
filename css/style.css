@@ -3,20 +3,20 @@
 
 @font-face {
 	font-family: 'Raleway-Thin';
-	src: url('../fonts/Raleway-Thin.eot?') format('eot'), 
-	     url('../fonts/Raleway-Thin.otf')  format('opentype'),
-	     url('../fonts/Raleway-Thin.woff') format('woff'), 
-	     url('../fonts/Raleway-Thin.ttf')  format('truetype'),
-	     url('../fonts/Raleway-Thin.svg#Raleway-Thin') format('svg');
+	src: url('Raleway-Thin.eot?') format('eot'), 
+	     url('Raleway-Thin.otf')  format('opentype'),
+	     url('Raleway-Thin.woff') format('woff'), 
+	     url('Raleway-Thin.ttf')  format('truetype'),
+	     url('Raleway-Thin.svg#Raleway-Thin') format('svg');
 }
 
 @font-face {
 	font-family: 'Code-Bold';
-	src: url('../fonts/Code-Bold.eot?') format('eot'), 
-	     url('../fonts/Code-Bold.otf')  format('opentype'),
-	     url('../fonts/Code-Bold.woff') format('woff'), 
-	     url('../fonts/Code-Bold.ttf')  format('truetype'),
-	     url('../fonts/Code-Bold.svg#Code-Bold') format('svg');
+	src: url('Code-Bold.eot?') format('eot'), 
+	     url('Code-Bold.otf')  format('opentype'),
+	     url('Code-Bold.woff') format('woff'), 
+	     url('Code-Bold.ttf')  format('truetype'),
+	     url('Code-Bold.svg#Code-Bold') format('svg');
 }
 
 p{
