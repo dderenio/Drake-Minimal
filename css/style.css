@@ -1,8 +1,25 @@
+/* Fonts
+=====================*/
+
+@font-face{
+	font-family: Raleway;
+	src: url('fonts/Raleway-Thin.otf');
+}
+
+@font-face{
+	font-family: 'CODE bold';
+	src: url('fonts/code-bold.otf');
+}
+
+p{
+	font-size: 19.5px;
+}
+
 /* Navbar
 =====================*/
 
 .navbar{
-	font-family: raleway;
+    font-family: 'raleway';
 	font-size: 20px;
 }
 
@@ -16,30 +33,10 @@
 
 .phrase{
 	text-align: center;
-	font-family: 'raleway';
+    font-family: 'raleway';
 	color: white;
 	position: relative;
 	padding-top:250px;
-}
-
-.drake-content{
-	text-align: center;
-	font-family: raleway;
-	line-height: 30px;
-	padding-top: 35px;
-	max-width: 75%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.myself{
-	background-image: url('../images/myself.gif');
-	background-repeat: no-repeat;
-	height: 300px;
-	width: 310px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 80px;
 }
 
 .page1{
@@ -47,10 +44,26 @@
 	height: 720px;
 }
 
-p{
-	font-size: 19.5px;
+.pagebanner{
+	margin-left: 70px;
+	margin-right: 70px;
 }
 
+.facts{
+	font-family: 'CODE bold';
+	color: #34CFBE;
+	padding-top: 30px;
+}
+
+.drake-content{
+	text-align: center;
+    font-family: 'raleway';
+	line-height: 30px;
+	padding-top: 35px;
+	max-width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /* Jumbotron
 =====================*/
@@ -62,22 +75,18 @@ p{
 .jumbotron h1{
 	font-size: 80px;
 }
+
 /* Logos & Icons
 =====================*/
 
-/* Main Logo
-
-.main-logo {
-	width: 94px;
-	height: 45px;
-	margin-top: 5px;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	background: url('../images/logo.gif') no-repeat;
-	background-size: 100%;
-	padding-top: 10px;
-	padding-bottom: 10px;
+.myself{
+	background-image: url('../images/myself.gif');
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 310px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
 }
 
 =====================*/
