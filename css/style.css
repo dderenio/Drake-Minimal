@@ -19,6 +19,14 @@
 	     url('Code-Bold.svg#Code-Bold') format('svg');
 }
 
+@font-face {
+	font-family: 'fontello';
+	src: url('fontello.eot?') format('eot'), 
+	     url('fontello.woff') format('woff'), 
+	     url('fontello.ttf')  format('truetype'),
+	     url('fontello.svg#fontello') format('svg');
+}
+
 p{
 	font-size: 19.5px;
 }
@@ -47,9 +55,8 @@ p{
 	padding-top:250px;
 }
 
-.page1{
+.home{
 	width: 100%;
-	height: 720px;
 }
 
 .pagebanner{
@@ -68,16 +75,54 @@ p{
 	font-family: 'Raleway-Thin';
 	line-height: 30px;
 	padding-top: 35px;
+	padding-bottom: 35px;
 	max-width: 75%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+.skills{
+	width: 100%;
+	height: 720px;
+	background: #333333;
+	padding-top: 70px;
+}
+
+.pagebanner2{
+	color: #34CFBE;
+	font-family: 'Code-Bold';
+}
+
+.pagebanner2 h1{
+	font-size: 40px;
+}
+
+.list{
+	margin-top: 30px;
+	max-width: 800px;
+	margin-left: 40px;
+}
+
+.list ul li{
+	color: #34CFBE;
+	display: block;
+	font-size: 30px;
+	font-family: raleway;
+	line-height: 70px;
+	position: relative;
+	max-width: 100%;
+}
+
+.progress-bar-info{
+	background-color: #34CFBE;
+}
+
+
 /* Jumbotron
 =====================*/
 .jumbotron{
 	background: #34CFBE;
-	height:720px;
+	height:723px;
 }
 
 .jumbotron h1{
@@ -95,6 +140,10 @@ p{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 30px;
+}
+
+.icon-ok-outline{
+		color: #34CFBE;
 }
 
 =====================*/
