@@ -66,7 +66,7 @@ p{
 
 .facts{
 	font-family: 'Code-Bold';
-	color: #34CFBE;
+	color: #34495e;
 	padding-top: 30px;
 }
 
@@ -122,19 +122,30 @@ p{
 	font-size: 30px;
 	font-family: 'Raleway-Thin';
 	color: white;
-	margin-top: 180px;
+	margin-top: 140px;
 	line-height: 40px;
 	text-align: center;
 }
 
 
 
+/* Background Wallpaper
+=====================*/
+
+#background{ 
+  background: url('../images/74H.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /* Jumbotron
 =====================*/
 .jumbotron{
-	background: #34CFBE;
-	height:723px;
+	height: 100vh;
 }
+
 
 /* Logos & Icons
 =====================*/
