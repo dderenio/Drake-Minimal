@@ -84,14 +84,14 @@ p{
 .skills{
 	width: 100%;
 	height: 100%;
-	background: #333333;
+	background: rgba(230, 234, 238, 0.34);
 	padding-top: 70px;
 	padding-bottom: 80px;
 
 }
 
 .pagebanner2{
-	color: #34CFBE;
+	color: black;
 	font-family: 'Code-Bold';
 }
 
@@ -101,7 +101,7 @@ p{
 }
 
 .list ul li{
-	color: #34CFBE;
+	color: black;
 	display: block;
 	font-size: 30px;
 	font-family: 'Raleway-Thin';
@@ -112,21 +112,42 @@ p{
 
 .progress{
 	max-width: 85%;
+	background-color: #BFBFBF;
 }
 
 .progress-bar-info{
-	background-color: #34CFBE;
+	background-color: rgba(0, 0, 0, 0.45);
 }
 
 .skills-content{
 	font-size: 30px;
 	font-family: 'Raleway-Thin';
-	color: white;
+	color: black;
 	margin-top: 140px;
 	line-height: 40px;
 	text-align: center;
+	padding-right: 75px;
 }
 
+.contact_banner{
+	text-align: center;
+	padding-top: 80px;
+	font-family: 'Code-Bold';
+}
+
+.contact_banner2{
+	text-align: center;
+	font-family: 'Raleway-Thin';
+	padding-bottom: 20px;
+}
+
+.contact_info ul{
+	list-style-type: none;
+	line-height: 30px;
+	font-family: 'Raleway-Thin';
+	font-size: 18px;
+	padding-top: 20px;
+}
 
 
 /* Background Wallpaper
@@ -161,7 +182,7 @@ p{
 }
 
 .icon-ok-outline{
-		color: #34CFBE;
+		color: rgba(0, 0, 0, 0.45);
 }
 
 =====================*/
