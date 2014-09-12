@@ -52,7 +52,21 @@ p{
 	font-family: 'Raleway-Thin';
 	color: black;
 	position: relative;
-	padding-top:250px;
+	padding-top: 250px;
+}
+
+.home_menu ul{
+	list-style-type: none;
+	font-size: 35px;
+	font-family: 'Raleway-Thin';
+	text-align: center;
+	padding: 95px 0;
+	word-spacing: 35px;
+	color: rgba(0, 0, 0, 0.45);
+}
+
+.home_menu ul li{
+	display: inline;
 }
 
 .home{
@@ -66,7 +80,7 @@ p{
 
 .facts{
 	font-family: 'Code-Bold';
-	color: black;
+	color: rgba(0, 0, 0, 0.62);
 	padding-top: 30px;
 }
 
@@ -91,7 +105,7 @@ p{
 }
 
 .pagebanner2{
-	color: black;
+	color: rgba(0, 0, 0, 0.62);
 	font-family: 'Code-Bold';
 }
 
@@ -147,7 +161,10 @@ p{
 	font-family: 'Raleway-Thin';
 	font-size: 18px;
 	padding-top: 20px;
+	line-height: 80px;
 }
+
+
 
 
 /* Background Wallpaper
@@ -163,9 +180,7 @@ p{
 
 /* Jumbotron
 =====================*/
-.jumbotron{
-	height: 100vh;
-}
+
 
 
 /* Logos & Icons
