@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/fontello.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -13,80 +14,52 @@
     <![endif]-->  
   </head>
   <body>
-  
-      <!-- Navbar --
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-
-       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        
-        <a class="main-logo pull-left img-responsive" href="#"></a>
-        <div class="collapse navbar-collapse">
-
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#Drake">Drake</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Contact</a></li>
-
-          </ul>
-
-        </div>
-      </div>
-
-    </div>
-    <!-- End navbar -->
        
     <div class="jumbotron" id="background">
     	<div class="conatiner-fluid">
     		<div class="row">
-    			<div class="col-sm-12 phrase">
+    			<div class="col-sm-12 phrase"> 
 					<p>let's create something great</p>
     			</div>
     		</div>
     		<div class="row">
     			<div class="col-sm-12 home_menu">
 					<ul>
-						<li>Drake</li>
-						<li>Skills</li>
-						<li>Contact</li>
+			<li class="active"><a href="#"></a></li>
+            <li><a href="#drake" class="smoothScroll">Drake</a></li>
+            <li><a href="#skills" class="smoothScroll">Skills</a></li>
+            <li><a href="#contact" class="smoothScroll">Contact</a></li>
+
 					</ul>	
     			</div>
     		</div>		
     	</div>
     </div>
-    
 <!--- Page 1 --->  
-
+<section id="drake" class="smoothscroll">
    <div class="container-fluid home">
    <div class="row pagebanner">
    	<h1 class="col-sm-4 text-center facts">Coder.</h1>
    	<h1 class="col-sm-4 text-center facts">Student.</h1>
    	<h1 class="col-sm-4 text-center facts">Developer.</h1>
    </div>
-   
-   
-   
-   
+      
    	<div class="row">
 		<div class="myself"></div>
    	</div>   
         <div class="row">
     		<div class="col-sm-12">
 				<div class="drake-content">
-						<p>Currently, I am a third year undergraduate student at the University of Waterloo obtaining a degree in Global Business & Digital 						Arts.This program is the first of its kind in Canada and focuses on Digital Media, Creativity, Technology, and Business. At the time, I am 						looking for a part- time or internship position where I can further develop my passion for technology, working with others and enhance my 						business skills. I have working experience coding in HTML and CSS and have worked with professional programs such as Adobe Photoshop, 							Audition, Illustrator and Coda 2. I am currently in the process of teaching myself front-end web design along side a full university work 						load and will continue to learn more in my spare time.</p>
+						<p>Hi there! I'm Drake Dereniowski and I'm a Front-End Developer and UX Designer from Waterloo, Ontario. I'm currently enrolled at the University of Waterloo completing my degree in Global Business & Digital Arts with hopes of pursuing my passion in Web Design. I have a natural fascination for creating simplistic and minimalist websites...</p>
 				</div>	
     		</div>	
 		</div>
   </div>
-  
+</section>  
 <!--- End of Page 1 ---> 
 
-<!--- Page 2 --->  
+<!--- Page 2 ---> 
+<section id="skills" class="smoothscroll"> 
 	<div class="container-fluid skills">
 		<div class="row pagebanner2 text-center">
 				<h1>what can i do?</h1>
@@ -114,8 +87,8 @@
 				</div>	
 					<li>jQuery <a href="#"><i class="icon-ok-outline pull-left"></i></a></li>
 				<div class="progress">
-					<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 35%;">
-						    35%
+					<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+						    25%
 					</div>
 				</div>	  	  	
 		  	</ul>
@@ -127,10 +100,11 @@
 		 
 	</div>
 	</div>
+</section>
 <!--- End of Page 2 ---> 
 
 <!--- Page 3 --->  
-
+<section id="contact" class="smoothscroll">
 	<div class="container">
 		<div class="row contact_banner">
 		    <div class="col-sm-12">
@@ -142,65 +116,36 @@
 		</div>
 		<div class ="row contact_info">
 			<div class="col-sm-6">
-				<h3>Drake Dereniowski</h3>
+				<h3>Contact Information</h3>
 				<ul>
 					<li><img src="images/pin.png"> 64 University Avenue East Waterloo, Ontario</li>
 					<li><img src="images/email.png"> drake.dereniowski@gmail.com</li>
-					<li><img src="images/smartphone.png"> (519)-992-2024</li>	
-					<li><img src="images/linkedin.png"> LinkedIn </li>				
+					<li><img src="images/phone.png"> (519)-992-2024</li>	
 				</ul>
 			</div>
+			<div class="col-sm-6 map">
+				<img id="worldphoto" src="images/map.gif">
+			</div>			
+		</div>	
 		</div>
-		
-		</div>
+</section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--- End of Page 3 ---> 
-
-
-
-    
-    
+<!--- End of Page 3 --->     
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
+	
+<!--- Main Page fadeIn jQuery --->	
+
+	<script>
+		$('.phrase').addClass('animated fadeIn');
+		$('.home_menu').addClass('animated fadeIn');
+
+	</script>
+	
+<!--- End of Main Page fadeIn jQuery ---> 
+
    </body>
+   
 </html>   
