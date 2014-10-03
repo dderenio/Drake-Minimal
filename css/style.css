@@ -213,6 +213,9 @@ a:hover{
 #background{ 
   background: url('../images/28H.jpg') no-repeat center center fixed;
   background-size: cover;
+  -webkit-filter: blur(10px);     
+    filter: blur(10px); 
+  
 }
 
 /* Jumbotron
