@@ -105,7 +105,7 @@ a:hover{
 	font-family: 'Raleway-Thin';
 	line-height: 30px;
 	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-bottom: 110px;
 	max-width: 75%;
 	margin-left: auto;
 	margin-right: auto;
@@ -188,6 +188,22 @@ a:hover{
 	line-height: 100px;
 }
 
+.contact{
+	padding-bottom: 110px;
+}
+
+#bottom_banner{
+	border-top: 1px solid #888888;
+	width: 85%;
+	margin: 40px auto;
+}
+
+.banner_info{
+	text-align: center;
+	padding-top: 25px;
+	font-family: 'Code-Bold';
+}
+
 
 
 
@@ -195,10 +211,7 @@ a:hover{
 =====================*/
 
 #background{ 
-  background: url('../images/28H.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url('../images/28H.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
